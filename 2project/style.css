@@ -1,0 +1,360 @@
+#justdial {
+    width: 1000;
+    height: 70px;
+    border: gainsboro dashed 1px;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+}
+#location {
+    border: solid rgb(219, 219, 224);
+    width: 210px;
+    height: 30px;
+    display: flex;
+    margin-left: 40px;
+    border-radius: 10PX;
+}
+#loc {
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 10PX;
+}
+#inner {
+    margin-left: 10px;
+    border: white;
+    color: black;
+}
+#school {
+    border: solid rgb(219, 219, 224);
+    width: 250px;
+    height: 30px;
+    display: flex;
+    margin-left: 12px;
+    border-radius: 10px;
+}
+#gour {
+    border: white solid;
+}
+#cross {
+    margin-left: 9px;
+    margin-top: 7px;
+}
+#langlogo {
+    margin-left: 40px;
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 4px;
+    background-color: white;
+}
+#language {
+    background-color: white;
+    border: white;
+}
+#letter {
+    margin-top: 7px;
+    margin-left: 9px;
+}
+#leads {
+    margin-top: 7px;
+    margin-left: 3px;
+}
+#letter2 {
+    margin-top: 7px;
+    margin-left: 20px;
+}
+#leads2 {
+    margin-top: 7px;
+    margin-left: 3px;
+}
+#leads22 {
+    margin-top: 4px;
+    margin-left: 20px;
+    border: solid 2px rgb(56, 172, 218);
+    background-color: rgb(56, 158, 199);
+    color: white;
+    border-radius: 4px;
+}
+#second2 {
+    width: 1200px;
+    height: 160px;
+    margin-left: 10px;
+    border: gainsboro dashed 1px;
+    display: inline-block;
+    border-radius: 10px;
+}
+#second21 {
+    border-radius: 8px;
+    display: flex;
+    margin-left: 5px;
+}
+#second22 {
+    margin-left: 520px;
+    display: flex;
+    margin-top: 10px;
+}
+#second23 {
+    margin-left: 29px;
+    margin-top: 0px;
+}
+#second24 {
+    margin-left: 26px;
+    margin-top: 9px;
+}
+#second31 {
+    display: flex;
+}
+#second32 {
+    width: 50px;
+    height: 23px;
+    border: green solid;
+    margin-left: 9px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+#star{
+    font-size: 14px;
+    margin-left: 4px;
+}
+#second33 {
+    margin-left: 8px;
+    margin-top: 7px;
+}
+#second34 {
+    margin-left: 22px;
+    margin-top: 4px;
+    color: rgb(31, 123, 160);
+}
+#second35 {
+    display: flex;
+    margin-top: 8px;
+}
+#locat {
+    margin-left: 10px;
+}
+#one1 {
+    margin-left: 4px;
+}
+#one2 {
+    margin-left: 55px;
+    font-size: 13px;
+}
+#one3 {
+    margin-left: 570px;
+}
+#two1{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#two2{
+    width: 150px;
+    height: 35px;
+    border: solid white;
+    margin-left: 0px;
+    border-radius: 8px;
+}
+#two4{
+    margin-top: 4px;
+     margin-right: 4px; 
+    margin-left: 0px;
+    font-size: 20px;
+}
+#two3{
+     width: 140px;
+    height: 30px;
+    border: solid #4885ee 1px;
+    margin-left: 35px;
+    border-radius: 8px;
+    background-color: #4482ee;
+    color: white;
+}
+#two5{
+    width: 20px;
+    height: 20px;
+    border:white solid;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+#two6{
+    width: 20px;
+    height: 20px;
+    border:white solid;
+    margin-left: 38px;
+    margin-top: 5px;
+    font-size: 23px;
+}
+#two7{
+    margin-left: 490px;
+    width: 35px;
+    height: 35px;
+    border: gainsboro  solid;
+    font-size: 25px;
+    border-radius: 6px;
+    margin-right: 4px;
+    text-align: center;
+}
+#two8{
+     width: 35px;
+    height: 35px;
+    border: gainsboro  solid;
+    font-size: 25px;
+    border-radius: 6px;
+    margin-right: 4px;
+    text-align: center;
+}
+#cen1{
+    margin-left: 14px;
+    font-size: 21px;
+}
+#cen{
+    margin-left: 60px;
+    font-size: 21px;
+}
+#three{
+    width: 880px;
+    height: 800px;
+    border:  gainsboro  solid 0.1px;
+    border-radius: 20px;
+  
+}
+#last{
+    display: flex;
+}
+#same3{
+    display: flex;
+}
+#three1{
+    width: 880px;
+    height: 120px;
+    border:  gainsboro solid 0px;;
+     display: flex; 
+}
+#three2{
+    width: 200px;
+    height: 110px;
+    border: rgb(11, 147, 201) dashed 1px;
+    text-align: center;
+}
+#three3{
+    margin-top: 8px;
+}
+#three4{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#three5{
+    margin-top: 35px;
+    margin-left: 50px;
+    font-size: 30px;
+    width: 240px;
+    text-align: start;
+    height: 35px;
+    color: black;
+    border: solid white;
+    margin-right: 55px;
+}
+#three6{
+    width: 190px;
+    height: 40px;
+    border: solid black;
+    background-color: black;
+    margin-top: 33px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+#three8{
+    width: 880px;
+    height: 100px;
+    border:  gainsboro  solid 0px;;
+}
+#three7{
+    margin-left: 20px;
+    margin-top: 7px;
+}
+#three9{
+    margin-top: 20px;
+    margin-left: 19px;
+}
+#three10{
+     width: 880px;
+    height: 190px;
+    border: gainsboro  solid 0px;;
+}
+h3{
+    margin-left: 25px;
+}
+#image{
+    margin-left: 40px;
+}
+#coed{
+    margin-left: 55px;
+    font-size: 20px;
+}
+#three11{
+     width: 880px;
+    height: 100px;
+    border:  gainsboro solid 0px;
+    font-size: 19px;
+}
+#image1{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+#image2{
+    margin-left: 90px;
+}
+#three12{
+    margin-top: 7px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+#three13{
+     width: 880px;
+    height: 270px;
+    border: gainsboro solid 0px;
+    font-size: 19px;
+}
+#three14{
+    width: 220px;
+    height: 30px;
+    border: rgb(11, 147, 201) solid 6px;
+    align-items: center;
+    background-color: rgb(11, 147, 201);
+    color: white;
+}
+#fore{
+    width: 360px;  
+    height: 850px;
+    border: gainsboro solid 0.1px;
+    margin-left: 12px;
+    border-radius: 20px;
+}
+#sideme{
+    width: 300px;
+    height: 50px;
+    border: gainsboro solid 0px;
+    text-align: start;
+}
+#last1{
+    border: solid green;
+    width: 19px;
+    height: 22px;
+}
+#school3{
+    display: flex;
+    margin-top: 25px;
+    text-align: center;
+}
+#school1{
+    border: solid rgb(219, 219, 224) 0.1px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    margin-left: 12px;
+    border-radius: 10px;
+    text-align: center;
+}
