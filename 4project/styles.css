@@ -1,0 +1,10 @@
+ #flite{
+    filter: none;
+    opacity: 1;
+    transition: filter 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    width: 100%;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 211 / 35;
+} 
