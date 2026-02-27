@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+<!-- 
+    <style>
+  *{
+     margin: 0;
+     padding: 0;
+   }
+   /* designing the text*/
+   div{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 2.5em;
+     color: rgb(4, 110, 4);
+   }
+   /*creating the shake animation*/
+   
+   div:hover h2{
+     animation:  shake 0.8s  ;
+   }
+ 
+   @keyframes shake{
+     0%{
+       transform: translateX(0)
+     }
+     25%{
+       transform: translateX(25px);
+     }
+     
+     50%{
+       transform: translateX(-25px);
+     }
+     100%{
+       transform: translateX(0px);
+     }
+   }
+   
+  </style> -->
+
+</head>
+<!-- <div id="mangofru" class="mango-fru">
+<body style="background-color: rgb(245, 144, 161);">
+  <script>
+    const totalmangos = 20;
+    const box = document.getElementById("mangofru") 
+  </script>
+</div> -->
+    <div id="happy">
+        <div style="display: flex; width: 500px; height: 55px; border: solid rgb(185, 99, 99) 1px; border-radius: 7px;" ><br>
+            <i class="fa-solid fa-gifts"
+                style="font-size: 35px; color: rgb(241, 184, 109) ; margin-right: 10px; margin-left: 10px;"></i>
+            <div id="birthday" class="birthday"><b>Happy Birthday!</b></div>
+            <i class="fa-solid fa-cake-candles"
+                style="font-size: 35px; color: aqua; margin-left: 10px;"></i>
+        </div>
+        <br>
+            <div style="color: white; text-align: center; font-size: 17px; ">Wishing a day filled with happiness and a year filled with joy!</div>
+        <br>
+        <div><h1 popover id="ritu"> Hellow Ritu, How are you</h1>
+            <button popovertarget="ritu" style="width: 170px; height: 30px; border-radius: 10px; color: white; border: 1px solid rgb(185, 99, 99); background-color: rgb(211, 47, 75); margin-left: 170px;">
+            Click for a Surprise<i class="fa-solid fa-gift" style="margin-left: 5px;"></i></button></div>
+    </div>
+
+
+
+
+
+<!--popvertargetaction="show"-->
+
+
+
+
+     <div id="happy">
+        <div style="display: flex; width: 500px; height: 55px; border: solid rgb(185, 99, 99) 1px; border-radius: 7px;" ><br>
+            <i class="fa-solid fa-gifts"
+                style="font-size: 35px; color: rgb(241, 184, 109) ; margin-right: 10px; margin-left: 10px;"></i>
+            <div id="birthday"><b>Happy Birthday!</b></div>
+            <i class="fa-solid fa-cake-candles"
+                style="font-size: 35px; color: aqua; margin-left: 10px;"></i>
+        </div>
+        <br>
+            <div style="color: white; text-align: center; font-size: 17px; ">Wishing a day filled with happiness and a year filled with joy!</div>
+        <br>
+        <div><h1 popover id="ritu"> Hellow Ritu, How are you</h1>
+            <button popovertarget="ritu" popovertargetaction="show" style="width: 170px; height: 30px; border-radius: 10px; color: white; border: 1px solid rgb(185, 99, 99); background-color: rgb(211, 47, 75); margin-left: 170px;">
+            Click for a Surprise<i class="fa-solid fa-gift" style="margin-left: 5px;"></i></button></div>
+    </div>
+
+
+
+
+
+<!---->
+
+
+
+
+<br><br><br><br>
+
+
+
+<h1>The button formtarget attribute</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="fname"><a href="https://kids.dadabhagwan.org"></a>First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <button type="submit">Submit</button>
+  <button type="submit" formtarget="_blank">Submit to a new window/tab</button>
+</form>
+
+<hr>
+<br><br><br><br><br>
+
+
+
+<!--    autofocus    -->
+
+
+<h1>The button autofocus attribute</h1>
+
+<button type="button" autofocus onclick="alert('Hello Ritu!')">Click Me!</button>
+
+<br><br><br><br><br>
+<hr>
+
+<!--disable-->
+
+
+<h1>The button disabled attribute</h1>
+
+<button type="button" disabled>Click Me!</button>
+<hr>
+
+<br><br><br><br>
+
+<!--reset and submit-->
+
+
+
+
+<h1>The button type attribute</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+</form>
+
+<hr>
+
+<br><br><br><br>
+
+
+
+<!--text-->
+
+
+
+<h1>The button value attribute</h1>
+
+<form action="/action_page.php" method="get">
+Choose your favorite subject:
+<button name="subject" type="submit" value="fav_HTML">HTML</button>
+<button name="subject" type="submit" value="fav_CSS">CSS</button>
+</form>
+
+
+<hr>
+
+
+<br><br><br><br><br><br>
+
+
+<menuitem label="" icon="" type="box"> this is acode</menuitem>
+
+
+
+ </menuitem>
+                    <menuitem label="Pinterest"
+                        onclick="window.open(
+'https://www.pinterest.com/pin/create/button/?url=' + window.location.href);">
+                    </menuitem>
+
+<hr>
+<br><br><br><br><br><br>
+
+ <embed src="loading2.swf" 
+           type="application/x-shockwave-flash">
+
+           <hr>
+           <br><br><br><br><br><br>
+
+             <form>
+        <p>Employee Personal Details:</p>
+        <fieldset>
+            <legend>Details:</legend>
+            Name:<input type="text">
+            Emp_Id:<input type="text">
+            Designation:<input type="text">
+        </fieldset>
+    </form>
+
+      <hr>
+           <br><br><br><br><br><br>
+
+
+
+
+
+           <figure>
+    <img src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" 
+         alt="gfglogo">
+    <figcaption>
+      GFG logo
+    </figcaption>
+  </figure>
+
+  
+      <hr>
+           <br><br><br><br><br><br>
+
+
+
+
+           <h1>GeeksforGeeks</h1>
+    <h2>
+        &lt;figure&gt; Tag
+    </h2>
+    <!--HTML figure tag starts here-->
+    <figure>
+        <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/geeks-25.png" 
+            alt="The Pulpit Rock" width="304"
+            height="228">
+        <figcaption>Geeks logo</figcaption>
+    </figure>
+
+
+  <hr>
+           <br><br><br><br><br><br>
+
+
+
+
+
+
+        <frameset cols="30%, 40%, 30%">
+        <frame name="top" src="attr1.png" />
+        <frame name="main" src="gradient3.png" />
+        <frame name="bottom" src="col_last.png" />
+        <noframes>
+
+            <body>The browser you are working does
+                not support frames.</body>
+        </noframes>
+    </frameset>
+ <hr>
+           <br><br><br><br><br><br>
+
+
+
+          <div>
+    <h2>Shake!</h2>
+  </div>   
+</body>
+
+</html>
