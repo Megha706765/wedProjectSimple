@@ -51,13 +51,27 @@ margin-left:10px;
 
 /* menu link */
 
-#nav li a{
+#nav li {
 display:block;
 padding:35px 20px;
 background:#333;
 color:#42beae;
 text-decoration:none;
-border-bottom:3px solid #00aec8;
+/* border-bottom:3px solid #00aec8; */
+visibility: visible;
+font-size: 14px;
+}
+.one{
+    border-bottom:3px solid #00aec8;
+    margin-bottom: 0;
+}
+
+#active{
+    display:block;
+padding:35px 20px;
+background:#333;
+color:#42beae;
+text-decoration:none;
 visibility: visible;
 font-size: 14px;
 }
@@ -90,3 +104,93 @@ display:block;
 #nav li ul li:hover{
 background:#444;
 }
+a{
+    color: #42beae;
+    font-size: 17px;
+        font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+        transition: all .3s ease-in;
+}
+h2{
+    margin-top: 2rem;
+}
+.con{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+span{
+    color: #00aec8;
+}
+
+.boldline{
+    width: 3.5rem;
+    background-color: aqua;
+   height: 3px;
+   border: none;
+}
+i{
+    color: #998;
+    font-style: italic;
+}
+pre{
+    background-color: #222;
+        display: block;
+    padding: .6em;
+    margin: .6em 0 .6em;
+    font-size: 13px;
+    line-height: 1.2em;
+    overflow: auto;
+    width: auto;
+
+}
+ #scrollbar {
+        width: 67rem;
+        height: 10rem;
+        border: 2px solid #333;
+        padding: 10px;
+        overflow-x: scroll; /* Vertical scrollbar */
+        overflow-y: hidden; /* Hide horizontal scrollbar */
+    }
+    #back1{
+        background-color: #222;
+        width: 100%;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+    #back2{
+        background-color: #222;
+        width: 100%;
+        height: 3rem;
+        margin-top: 2rem;
+    }
+    p{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    footer{
+        height: 3rem;
+        background-color: #474747;
+        color: #a4a1a1;
+        font-size: 15px;
+        display: flex;
+    }
+    a{
+        font-size: 13px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .foot{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    #footone{
+        margin-left: 10rem;
+        margin-right: 2rem;
+    }
+    #foottwo{
+         margin-left: 15rem; 
+        margin-right:10rem;
+    }
